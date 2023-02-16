@@ -1,4 +1,4 @@
-#include<stdio.>
+#include<stdio.h>
 // main - main function
 // return 0
 int main () 
