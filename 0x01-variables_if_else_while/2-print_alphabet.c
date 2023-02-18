@@ -1,20 +1,22 @@
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
- * main - main block
- * Description : Get a random it with 5
- * Return : 0
+ * main - Entry point for the program
+ *
+ * Return: 0 if successful, non-zero if an error occurred
  */
+
 int main(void)
 {
-        char c = 'a';
+	char c = 'a';
 
-        while (c <= 'z')
+	while (c <= 'z')
 	{
 		putchar(c);
 		c++;
 	}
 	
 	putchar('\n');
-        return (0);
+	return (0);
 }
