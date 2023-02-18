@@ -12,10 +12,9 @@ int main(void)
 
 	while (c < 10)
 	{
-		putchar(48+c);
+		putchar(48 + c);
 		c++;
 	}
-	
 	putchar('\n');
 	return (0);
-}       
+}
