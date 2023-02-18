@@ -1,15 +1,16 @@
 #include <stdio.h>
+
 /**
- * main - main block
- * Description : print the alphabet in lowercase
- * and the in uppercase, follow by a new line
- * Return : 0
+ * main - Entry point for the program
+ *
+ * Return: 0 if successful, non-zero if an error occurred
  */
+
 int main(void)
 {
-        char c = 'a';
+	char c = 'a';
 
-        while (c <= 'z')
+	while (c <= 'z')
 	{
 		putchar(c);
 		c++;
@@ -22,7 +23,6 @@ int main(void)
 		putchar(c);
 		c++;
 	}
-
 	putchar('\n');
-        return (0);
+	return (0);
 }
