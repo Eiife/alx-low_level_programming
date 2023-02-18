@@ -1,21 +1,23 @@
 #include <stdio.h>
+
 /**
- * main - main block
- * Description : get a random number and check its
- * Return : 0
+ * main - Entry point for the program
+ *
+ * Return: 0 if successful, non-zero if an error occurred
  */
+
 int main(void)
 {
-        char c = 'a';
+	char c = 'a';
 
-        while (c <= 'z')
-        { 
-                if (c != 'e' && c != 'q')
+	while (c <= 'z')
+	{
+		if (c != 'e' && c != 'q')
 		{
 			putchar(c);
 		}
-                c++;
-        }
-        putchar('\n');
+		c++;
+	}
+	putchar('\n');
 	return (0);
 }       
