@@ -21,6 +21,6 @@ int main(void)
 		}
 		c++;
 	}
-	putchar('\n'); // add a newline character
+	putchar('\n');
 	return (0);
 }
